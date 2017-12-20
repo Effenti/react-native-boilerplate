@@ -3,6 +3,7 @@ This is our very own React Native recipe for success! In this repo you'll find a
 
 * Navigation
 * Carousel
+* Various components
 * Icons
 
 ## Getting started
