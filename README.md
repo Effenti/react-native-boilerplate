@@ -29,6 +29,16 @@ Please have your app icon in the PNG format at a 1536x1536 resolution for best r
 The package for the navigation is React Navigation:
 https://reactnavigation.org/docs/intro/quick-start
 
+## Carousel
+
+We recommend using react-native-swipeable-parallax-carousel:
+https://www.npmjs.com/package/react-native-swipeable-parallax-carousel
+
+## Icons
+
+We recommend using react-native-vector-icons which supports a lot of different icons:
+https://github.com/oblador/react-native-vector-icons
+
 ## Credits
 
 Cohan Carpentier - ccarpentier@effenti.ca
