@@ -1,5 +1,7 @@
 # Effenti's React Native Boilerplate
-This is our very own React Native recipe for success! In this repo you'll find an empty react-native project, with all the essential packages. This boilerplate offers the following:
+> This is our very own React Native recipe for success! 
+
+In this repo you'll find an empty react-native project, with all the essential packages. This boilerplate offers the following:
 
 * Navigation
 * Carousel
@@ -23,7 +25,16 @@ Install the react-native project:
 Build the react-native project:
 ```react-native run-ios```
 
-## Basic project structure
+## Basic project structure (TODO)
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
 
 ## Components
 
