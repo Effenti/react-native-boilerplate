@@ -9,17 +9,18 @@ This is our very own React Native recipe for success! In this repo you'll find a
 
 ### Step 1
 
-Create the react-native project:
-```react-native init myProjectName```
+Clone the react-native project:
+```git clone https://github.com/Effenti/react-native-boilerplate.git```
 
 ### Step 2
 
-Build the react-native project:
-```react-native run-ios```
+Install the react-native project:
+```npm install```
 
 ### Step 3
 
-Profit!
+Build the react-native project:
+```react-native run-ios```
 
 ## Basic project structure
 
