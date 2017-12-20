@@ -1,5 +1,9 @@
 # Effenti's React Native Boilerplate
-This is our very own React Native recipe for success!
+This is our very own React Native recipe for success! In this repo you'll find an empty react-native project, with all the essential packages. This boilerplate offers the following:
+
+* Navigation
+* Carousel
+* Icons
 
 ## Getting started
 
