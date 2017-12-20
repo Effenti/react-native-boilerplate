@@ -1,4 +1,4 @@
-# Effenti's React Native Boilerplat
+# Effenti's React Native Boilerplate
 This is our very own React Native recipe for success!
 
 ## Getting started
