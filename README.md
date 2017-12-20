@@ -21,6 +21,32 @@ Build the react-native project:
 
 Profit!
 
+## Basic project structure
+
+## Components
+
+For the various components of our app, we use react-native-elements:
+https://github.com/react-native-training/react-native-elements
+
+This package is great, because it provides lots of different components that can be easily styled. Here are the available components:
+
+- [x] [Buttons](https://react-native-training.github.io/react-native-elements/API/buttons/)
+- [x] [Social Icons / Social Icon Buttons](https://react-native-training.github.io/react-native-elements/API/social_icons/)
+- [x] [Icons](https://react-native-training.github.io/react-native-elements/API/icons/)
+- [x] [Form Elements](https://react-native-training.github.io/react-native-elements/API/forms/)
+- [x] [Search Bar](https://react-native-training.github.io/react-native-elements/API/searchbar/)
+- [x] [ButtonGroup](https://react-native-training.github.io/react-native-elements/API/button_group/)
+- [x] [Checkboxes](https://react-native-training.github.io/react-native-elements/API/checkbox/)
+- [x] [List Element](https://react-native-training.github.io/react-native-elements/API/lists/)
+- [x] [Badge](https://react-native-training.github.io/react-native-elements/API/badge/)
+- [x] [HTML style headings](https://react-native-training.github.io/react-native-elements/API/HTML_style_headings/)
+- [x] [Card component](https://react-native-training.github.io/react-native-elements/API/card/)
+- [x] [Pricing Component](https://react-native-training.github.io/react-native-elements/API/pricing/)
+- [x] [Slider Component](https://react-native-training.github.io/react-native-elements/API/slider/)
+- [x] [Tile Component](https://react-native-training.github.io/react-native-elements/API/tile/)
+- [x] [Avatar Component](https://react-native-training.github.io/react-native-elements/API/avatar/)
+- [x] [Rating Component](https://react-native-training.github.io/react-native-elements/API/rating/)
+
 ## Creating the app icons
 
 We use MakeAppIcon for this:
