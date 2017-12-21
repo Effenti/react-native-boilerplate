@@ -1,6 +1,20 @@
 # Effenti's React Native Boilerplate
 > This is our very own React Native recipe for success! In this repo you'll find an empty react-native project, with all the essential packages.
 
+## Requirements
+
+1. Node and NPM:
+
+https://nodejs.org/en/download/
+
+2. React Native CLI
+
+```npm install -g react-native-cli```
+
+3. For iOS, you also need xCode:
+
+https://developer.apple.com/download/
+
 ## Getting started
 
 ### Step 1
