@@ -25,16 +25,35 @@ Install the react-native project:
 Build the react-native project:
 ```react-native run-ios```
 
-## Basic project structure (TODO)
+## Basic project structure
 
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
+```
+.
+├── README.md                               # README file
+├── __tests__                               # Tests folder
+├── android                                 # All the android-relative code goes here
+├── app.json                                # Our app name and display name
+├── index.js                                # This is the entry point of our application
+├── ios                                     # All the ios-relative code goes here 
+├── node_modules                            # Packages
+├── package-lock.json                       # https://docs.npmjs.com/files/package-lock.json
+├── package.json                            # https://docs.npmjs.com/files/package.json
+└── src                                     # The code of our app
+    ├── App.js                              # This is where we declare our navigation
+    ├── assets                              # The assets folder contains images, icons and fonts
+    │   ├── fonts                           # Special fonts of our app
+    │   └── images                          # All the images and icons go here
+    ├── components                          # All our custom components go here
+    ├── screens                             # All our screens (views) go here
+    │   ├── HomeScreen.js                   # The home screen for when we're logged in
+    │   ├── LoginScreen.js                  # The very first screen we see upon opening the app
+    │   └── SignUpScreen.js                 # Sign up screen to create an account
+    └── theme                               # All reusable stylesheets go here
+        ├── colors.js                       # All the colors we need for our project 
+        ├── fonts.js                        # Here we declare special font-style, font-weight and font-size 
+        ├── index.js                        # Main stylesheet that we import / export
+        └── sizes.js                        # Useful screen sizes variables
+```
 
 ## Components
 
