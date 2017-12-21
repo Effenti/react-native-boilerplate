@@ -3,15 +3,15 @@
 
 ## Requirements
 
-1. Node and NPM:
+Node and NPM:
 
 https://nodejs.org/en/download/
 
-2. React Native CLI
+React Native CLI
 
 ```npm install -g react-native-cli```
 
-3. For iOS, you also need xCode:
+For iOS, you also need xCode:
 
 https://developer.apple.com/download/
 
