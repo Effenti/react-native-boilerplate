@@ -13,16 +13,19 @@ In this repo you'll find an empty react-native project, with all the essential p
 ### Step 1
 
 Clone the react-native project:
+
 ```git clone https://github.com/Effenti/react-native-boilerplate.git```
 
 ### Step 2
 
 Install the react-native project:
-```npm install```
+
+```cd react-native-boilerplate && npm install```
 
 ### Step 3
 
 Build the react-native project:
+
 ```react-native run-ios```
 
 ## Basic project structure
