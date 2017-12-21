@@ -58,6 +58,7 @@ Build the react-native project:
 ## Components
 
 For the various components of our app, we use react-native-elements:
+
 https://github.com/react-native-training/react-native-elements
 
 This package is great, because it provides lots of different components that can be easily styled. Here are the available components:
