@@ -1,3 +1,5 @@
+![alt text](/src/assets/images/effenti.png "Effenti React Native Boilerplate")
+
 # Effenti's React Native Boilerplate
 > This is our very own React Native recipe for success! In this repo you'll find an empty react-native project, with all the essential packages.
 
