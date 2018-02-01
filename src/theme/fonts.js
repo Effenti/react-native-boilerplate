@@ -1,8 +1,7 @@
 const fonts = {
-  family: {
-    //raleway: 'Raleway',
+  /*family: {
     //karla: 'Karla',
-  },
+  },*/
   weight: {
     bold: 'bold',
     normal: 'normal',

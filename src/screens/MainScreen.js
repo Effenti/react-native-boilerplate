@@ -8,20 +8,22 @@ import { NavigationActions } from 'react-navigation';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#F5FCFF',
   },
 });
 
-const MainScreen = ({ }) => (
+const MainScreen = ({ goToPdfScreen }) => (
   <ScrollView style={styles.container}>
     <Button
-      title={'Open Frequency'}
+      title={'PDF Viewer'}
+      onPress={goToPdfScreen}
     />
   </ScrollView>
 );
 
 const mapDispatchToProps = dispatch => ({
-  /*loginScreen: () =>
-    dispatch(NavigationActions.navigate({ routeName: 'Login' })),*/
+  goToPdfScreen: () =>
+    dispatch(NavigationActions.navigate({ routeName: 'PdfScreen' })),
 });
 
 export default connect(null, mapDispatchToProps)(MainScreen);

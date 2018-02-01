@@ -1,6 +1,7 @@
 export default {
   // navBar
   navBar: {
-    arglos: 'Arglos',
+    effenti: 'Effenti',
+    pdfScreen: 'PDF',
   },
 };

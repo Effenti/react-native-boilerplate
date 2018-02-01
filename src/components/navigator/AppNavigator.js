@@ -5,34 +5,30 @@ import { addNavigationHelpers, StackNavigator, TabNavigator } from 'react-naviga
 import { AppColors, AppFonts } from './../../theme/index';
 import I18n from './../../i18n/i18n';
 import Main from './../../screens/MainScreen';
+import AppSizes from './../../theme/sizes';
+import PdfScreen from '../../screens/PdfScreen';
 
 // STYLES
 const styles = StyleSheet.create({
-  headerTitle: {
-    fontFamily: AppFonts.family.raleway,
-    fontWeight: AppFonts.weight.normal,
-    letterSpacing: AppFonts.letterSpacing.half,
-  },
 });
 
 const AppWithNavigationState = ({ dispatch, nav }) => (
   <AppNavigator navigation={addNavigationHelpers({ dispatch, state: nav })} />
 );
 
-// MAP STATE TO PROPS
 const mapStateToProps = state => ({
   nav: state.nav,
 });
 
-// OPTIONS FOR NAVIGATOR
+// OPTIONS FOR NAVIGATOR HEADER
 const getOptions = (title, headerBackgroundColor, headerTextColor, headerBorderBottomWidth) => ({
-  title: <Text style={styles.headerTitle} numberOfLines={1}>{title}</Text>,
+  title: <Text numberOfLines={1}>{title}</Text>,
   headerStyle: {
     backgroundColor: headerBackgroundColor,
     borderBottomWidth: headerBorderBottomWidth,
   },
   headerBackTitle: null,
-  headerTitleStyle: { width: Dimensions.get('window').width },
+  headerTitleStyle: AppSizes.screen.width,
   headerTintColor: headerTextColor,
 });
 
@@ -42,6 +38,10 @@ export default connect(mapStateToProps)(AppWithNavigationState);
 export const AppNavigator = StackNavigator({
   Main: {
     screen: Main,
-    navigationOptions: getOptions('Effenti', AppColors.lightGrey, AppColors.brand.secondary, 0),
+    navigationOptions: getOptions(I18n.t('navBar.effenti'), AppColors.lightGrey, AppColors.brand.secondary, 1),
+  },
+  PdfScreen: {
+    screen: PdfScreen,
+    navigationOptions: getOptions(I18n.t('navBar.pdfScreen'), AppColors.lightGrey, AppColors.brand.secondary, 1),
   },
 });
