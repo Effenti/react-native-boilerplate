@@ -3,5 +3,6 @@ export default {
   navBar: {
     effenti: 'Effenti',
     pdfScreen: 'PDF',
+    buttonsScreen: 'Buttons',
   },
 };

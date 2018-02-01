@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, Dimensions } from 'react-native';
+import { StyleSheet, Text } from 'react-native';
 import { connect } from 'react-redux';
 import { addNavigationHelpers, StackNavigator, TabNavigator } from 'react-navigation';
 import { AppColors, AppFonts } from './../../theme/index';
@@ -7,6 +7,7 @@ import I18n from './../../i18n/i18n';
 import Main from './../../screens/MainScreen';
 import AppSizes from './../../theme/sizes';
 import PdfScreen from '../../screens/PdfScreen';
+import ButtonsScreen from '../../screens/ButtonsScreen';
 
 // STYLES
 const styles = StyleSheet.create({
@@ -43,5 +44,9 @@ export const AppNavigator = StackNavigator({
   PdfScreen: {
     screen: PdfScreen,
     navigationOptions: getOptions(I18n.t('navBar.pdfScreen'), AppColors.lightGrey, AppColors.brand.secondary, 1),
+  },
+  ButtonsScreen: {
+    screen: ButtonsScreen,
+    navigationOptions: getOptions(I18n.t('navBar.buttonsScreen'), AppColors.lightGrey, AppColors.brand.secondary, 1),
   },
 });
