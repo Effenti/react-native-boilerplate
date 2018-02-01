@@ -8,6 +8,7 @@ import Main from './../../screens/MainScreen';
 import AppSizes from './../../theme/sizes';
 import PdfScreen from '../../screens/PdfScreen';
 import ButtonsScreen from '../../screens/ButtonsScreen';
+import CardsScreen from '../../screens/CardsScreen';
 
 // STYLES
 const styles = StyleSheet.create({
@@ -48,5 +49,9 @@ export const AppNavigator = StackNavigator({
   ButtonsScreen: {
     screen: ButtonsScreen,
     navigationOptions: getOptions(I18n.t('navBar.buttonsScreen'), AppColors.lightGrey, AppColors.brand.secondary, 1),
+  },
+  CardsScreen: {
+    screen: CardsScreen,
+    navigationOptions: getOptions(I18n.t('navBar.cardsScreen'), AppColors.lightGrey, AppColors.brand.secondary, 1),
   },
 });

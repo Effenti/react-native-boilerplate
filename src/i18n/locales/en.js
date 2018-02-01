@@ -4,5 +4,6 @@ export default {
     effenti: 'Effenti',
     pdfScreen: 'PDF',
     buttonsScreen: 'Buttons',
+    cardsScreen: 'Cards',
   },
 };

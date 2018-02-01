@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const MainScreen = ({ goToPdfScreen, goToButtonsScreen }) => (
+const MainScreen = ({ goToPdfScreen, goToButtonsScreen, goToCardsScreen }) => (
   <ScrollView style={styles.container}>
     <WingBlank>
       <WhiteSpace />
@@ -29,6 +29,13 @@ const MainScreen = ({ goToPdfScreen, goToButtonsScreen }) => (
       >
         Buttons
       </Button>
+      <WhiteSpace />
+      <Button
+        type={'primary'}
+        onClick={goToCardsScreen}
+      >
+        Cards
+      </Button>
     </WingBlank>
   </ScrollView>
 );
@@ -38,6 +45,8 @@ const mapDispatchToProps = dispatch => ({
     dispatch(NavigationActions.navigate({ routeName: 'PdfScreen' })),
   goToButtonsScreen: () =>
     dispatch(NavigationActions.navigate({ routeName: 'ButtonsScreen' })),
+  goToCardsScreen: () =>
+    dispatch(NavigationActions.navigate({ routeName: 'CardsScreen' })),
 });
 
 export default connect(null, mapDispatchToProps)(MainScreen);
