@@ -22,6 +22,6 @@ class ReduxExampleApp extends React.Component {
   }
 }
 
-AppRegistry.registerComponent('EffentiBoilerplate', () => ReduxExampleApp)
+AppRegistry.registerComponent('ReactNativeBoilerplate', () => ReduxExampleApp)
 
 export default ReduxExampleApp

@@ -1,4 +1,4 @@
-package com.effentiboilerplate;
+package com.reactnativeboilerplate;
 
 import android.app.Application;
 
