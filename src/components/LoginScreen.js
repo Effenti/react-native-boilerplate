@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Button, StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Button, StyleSheet, Text, View } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
-})
+});
 
 const LoginScreen = ({ navigation }) => (
   <View style={styles.container}>
@@ -29,14 +29,14 @@ const LoginScreen = ({ navigation }) => (
       title="Log in"
     />
   </View>
-)
+);
 
 LoginScreen.propTypes = {
   navigation: PropTypes.object.isRequired,
-}
+};
 
 LoginScreen.navigationOptions = {
   title: 'Log In',
-}
+};
 
-export default LoginScreen
+export default LoginScreen;

@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { Button, StyleSheet, Text, View } from 'react-native'
-import { NavigationActions } from 'react-navigation'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import { Button, StyleSheet, Text, View } from 'react-native';
+import { NavigationActions } from 'react-navigation';
 
 const styles = StyleSheet.create({
   welcome: {
@@ -10,11 +10,11 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
-})
+});
 
 const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
   if (!isLoggedIn) {
-    return <Text>Please log in</Text>
+    return <Text>Please log in</Text>;
   }
   return (
     <View>
@@ -27,16 +27,16 @@ const LoginStatusMessage = ({ isLoggedIn, dispatch }) => {
         title="Profile"
       />
     </View>
-  )
-}
+  );
+};
 
 LoginStatusMessage.propTypes = {
   isLoggedIn: PropTypes.bool.isRequired,
   dispatch: PropTypes.func.isRequired,
-}
+};
 
 const mapStateToProps = state => ({
   isLoggedIn: state.auth.isLoggedIn,
-})
+});
 
-export default connect(mapStateToProps)(LoginStatusMessage)
+export default connect(mapStateToProps)(LoginStatusMessage);
